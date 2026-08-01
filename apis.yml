@@ -1,7 +1,26 @@
 aid: shara
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shara.png
 name: Shara
-description: Shara is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Shara (Shara Technology Management Nigeria Ltd) is a Lagos-based fintech that
+  provides collateral-free working-capital loans of up to NGN 10 million to
+  Nigerian small and medium-sized businesses. Sole traders, partnerships, and
+  limited companies apply through Shara's website or Android app with basic
+  business details and a bank statement, and receive a free loan estimate in
+  seconds with approval typically in 48 hours to two weeks. The company reports
+  over NGN 50 billion disbursed across 100,000+ loans to 7,000+ business
+  customers. Shara publishes no public API, developer portal, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/shara/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Lending
+- SME Finance
+- Working Capital
+- Financial Services
+- Nigeria
+- Loans
 apis: []
+common:
+- type: DomainSecurity
+  url: security/shara-domain-security.yml
+- type: Website
+  url: https://shara.co
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
