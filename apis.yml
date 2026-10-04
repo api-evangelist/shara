@@ -48,7 +48,7 @@ tags:
 - Lending
 - SME Finance
 - Working Capital
-- Financial-Services
+- Financial Services
 - Nigeria
 - Loans
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - Financial Services
 - Nigeria
 - Loans
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
